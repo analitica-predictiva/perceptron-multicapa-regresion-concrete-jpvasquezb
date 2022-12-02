@@ -40,7 +40,7 @@ def pregunta_02():
     from sklearn.model_selection import train_test_split
 
     # Cargue los datos de ejemplo y asigne los resultados a `X` y `y`.
-    x, y = pregunta_01()
+    X, y = pregunta_01()
 
     # Divida los datos de entrenamiento y prueba. La semilla del generador de números
     # aleatorios es 12453. Use el 75% de los patrones para entrenamiento.
